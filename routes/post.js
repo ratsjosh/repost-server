@@ -1,6 +1,6 @@
 var express = require('express')
 var router = express.Router()
-var post = require('../models/post.js')
+var post = require('../models/Post.js')
 var { authCheck } = require('./middleware/auth')
 
 /* GET ALL POSTS */
